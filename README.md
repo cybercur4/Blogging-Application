@@ -35,6 +35,7 @@
 
 ## Usage
 
+``` Copy the BackEnd Folder and paste it in C:\Users\Win10\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE ```
 ### Backend
 - Open **Spring Tool Suite**.
 - Click on **File**.
