@@ -56,3 +56,11 @@
 - Click on Open.
 - Naviage to Terminal window.
 - Type ``` ng serve -o ```
+
+## Contributors
+
+- Brijesh Kumar (Product Owner)
+- Shahzeb Khan (Scrum Master)
+- Sandeep Kasaudhan
+- Anvesha Rastogi
+- Diwakar Kumar
