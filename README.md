@@ -36,7 +36,7 @@
 ## Usage
 
 ### Backend
-- Oen **Spring Tool Suite**
+- Open **Spring Tool Suite**.
 - Click on **File**.
 - Select **Open Project from File System**.
 - Go to your project directory where you have cloned the git repo.
@@ -49,7 +49,7 @@
 
 ### Frontend
 
--Open **Visual Studio Code**
+-Open **Visual Studio Code**.
 - Click on **File**.
 - Select **Open Project from File System**.
 - Go to your project directory where you have cloned the git repo.
