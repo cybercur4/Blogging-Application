@@ -1,0 +1,17 @@
+.strt{
+   height:100vh; 
+   display: flex;
+    justify-content: center;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color:rgb(193, 193, 193);
+  }
+  .cover-container {
+    max-width: 42em;
+  }

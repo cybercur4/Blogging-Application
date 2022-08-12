@@ -1,0 +1,21 @@
+<h1 style="color:white;">Post Your Blog!</h1>
+<br><br>
+<form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1" style="color:white;">Title</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Beauty Of Nature" name="title" [(ngModel)]="post.title">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1" style="color:white;">Author Name</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Billy Anderson" name="username" [(ngModel)]="post.username">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1" style="color:white;">Description</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="content" [(ngModel)]="post.content"></textarea>
+    </div>
+    <div class="my-3">
+        <button  type="button" class="btn  btn-primary btn-lg col-12" (click)="postNow()">
+            <small><i class="far fa-user pr-2">  Post</i></small>
+        </button>
+      </div>
+  </form>

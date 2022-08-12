@@ -1,0 +1,27 @@
+
+<a href="" routerLink="/postblog">Post</a>
+<div class="container-fluid">
+    <br><br>
+    <div *ngFor="let post of posts" class="row w-100 d-flex align-items-center maindiv" style="display: flex; justify-content: flex-end">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{post.title}}</h5>
+                    <p class="card-text">{{post.content}}</p>
+                    <br>
+                    <footer class="blockquote-footer">{{post.username}}</footer>
+                    <div class="row">
+                        <div class="col-1">
+                            <a href="" target="google" style="color:rgb(49, 49, 49);"><i class="fa-solid fa-thumbs-up"></i></a>
+                        </div>
+                        <div class="col-1">
+                            <a href="" target="google" style="color:rgb(49, 49, 49);"><i class="fa-solid fa-comment"></i></a>
+                        </div>
+                        <div class="col-1">
+                            <a href="" target="google" style="color:rgb(49, 49, 49);"><i class="fa-solid fa-bookmark"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+
+a:hover{
+    color: white;
+}
+
+.header-right a:hover {
+    opacity: 1;
+    transition: 0.3s;
+    background-color: #7b7b7b;
+}
+
+
+
+.search {
+    float: right;
+    padding-right: 20px;
+}
+
+.search input[type=text] {
+    border-radius: 30px;
+    border-color: white;
+    outline: none;
+    background-color: #950740;
+}
+
+.search2:focus{
+    color:white;
+}
+.search i {
+    color: white;
+}
+
+
+::placeholder {
+    color: white;
+}
+
+
+.logo {
+    font-size: 40px;
+    font-family: 'Smooch', cursive;
+    padding-right: 70px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}

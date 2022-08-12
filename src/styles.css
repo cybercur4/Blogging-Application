@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Varta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+
+header a {
+    float: left;
+    font-family: 'rajdhani', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    padding-right: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+header a.cred:hover {
+    transition: 0.3s;
+    background-color: #7b7b7b;
+}
+
+
+header a.cred {
+    float: right;
+
+}
+
+
+.bottom {
+
+
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+li a {
+    text-decoration: none 
+}
+
